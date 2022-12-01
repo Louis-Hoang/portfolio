@@ -1,0 +1,14 @@
+.wrapper {
+    transition: filter 0.35s ease, -webkit-filter 0.35s ease,
+        opacity 0.375s ease-out;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    hr {
+        border: 0.5px solid rgba(236, 240, 241, 1);
+        color: rgba(236, 240, 241, 1);
+    }
+}
