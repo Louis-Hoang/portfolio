@@ -5,7 +5,7 @@ function Banner(props) {
     return (
         <div className="banner">
             <div className="inner">
-                <h1 className="greeting">Hi, I'm Tung </h1>
+                <h1 className="greeting">Hi, I'm Tung Hoang</h1>
                 {/* <h1 className="">Tung Hoang</h1> */}
                 <div className="intro">
                     Welcome to my website, where I share both of my professional
