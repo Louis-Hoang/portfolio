@@ -31,22 +31,22 @@ function Work() {
         <FadeInSection>
             <div className="work">
                 <div className="row">
-                    <Carousel onClick={katRedirect}>
-                        <Carousel.Item interval={5000}>
+                    <Carousel>
+                        <Carousel.Item interval={5000} onClick={katRedirect}>
                             <img
                                 className="d-block w-100"
                                 src={kat1}
                                 alt="First slide"
                             />
                         </Carousel.Item>
-                        <Carousel.Item interval={5000}>
+                        <Carousel.Item interval={5000} onClick={katRedirect}>
                             <img
                                 className="d-block w-100"
                                 src={kat2}
                                 alt="Second slide"
                             />
                         </Carousel.Item>
-                        <Carousel.Item interval={5000}>
+                        <Carousel.Item interval={5000} onClick={katRedirect}>
                             <img
                                 className="d-block w-100"
                                 src={kat3}
@@ -92,25 +92,31 @@ function Work() {
                             </div>
                         </div>
                     </div>
-                    <Carousel
-                        className="right-carousel"
-                        onClick={ExpenseRedirect}
-                    >
-                        <Carousel.Item interval={5000}>
+                    <Carousel className="right-carousel">
+                        <Carousel.Item
+                            interval={5000}
+                            onClick={ExpenseRedirect}
+                        >
                             <img
                                 className="d-block w-100"
                                 src={expenses1}
                                 alt="First slide"
                             />
                         </Carousel.Item>
-                        <Carousel.Item interval={5000}>
+                        <Carousel.Item
+                            interval={5000}
+                            onClick={ExpenseRedirect}
+                        >
                             <img
                                 className="d-block w-100"
                                 src={expenses2}
                                 alt="Second slide"
                             />
                         </Carousel.Item>
-                        <Carousel.Item interval={5000}>
+                        <Carousel.Item
+                            interval={5000}
+                            onClick={ExpenseRedirect}
+                        >
                             <img
                                 className="d-block w-100"
                                 src={expenses3}
@@ -120,22 +126,22 @@ function Work() {
                     </Carousel>
                 </div>
                 <div className="row">
-                    <Carousel onClick={sudokuRedirect}>
-                        <Carousel.Item interval={5000}>
+                    <Carousel>
+                        <Carousel.Item interval={5000} onClick={sudokuRedirect}>
                             <img
                                 className="d-block w-100"
                                 src={sudoku1}
                                 alt="First slide"
                             />
                         </Carousel.Item>
-                        <Carousel.Item interval={5000}>
+                        <Carousel.Item interval={5000} onClick={sudokuRedirect}>
                             <img
                                 className="d-block w-100"
                                 src={sudoku2}
                                 alt="Second slide"
                             />
                         </Carousel.Item>
-                        <Carousel.Item interval={5000}>
+                        <Carousel.Item interval={5000} onClick={sudokuRedirect}>
                             <img
                                 className="d-block w-100"
                                 src={sudoku3}
