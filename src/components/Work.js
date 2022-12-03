@@ -28,8 +28,8 @@ function Work() {
         );
     };
     return (
-        <FadeInSection>
-            <div className="work">
+        <div className="work">
+            <FadeInSection>
                 <div className="row">
                     <Carousel>
                         <Carousel.Item interval={5000} onClick={katRedirect}>
@@ -72,6 +72,8 @@ function Work() {
                         </div>
                     </div>
                 </div>
+            </FadeInSection>
+            <FadeInSection>
                 <div className="row">
                     <div className="proj-description left">
                         <h2 className="category left">Web Design Project</h2>
@@ -125,6 +127,8 @@ function Work() {
                         </Carousel.Item>
                     </Carousel>
                 </div>
+            </FadeInSection>
+            <FadeInSection>
                 <div className="row">
                     <Carousel>
                         <Carousel.Item interval={5000} onClick={sudokuRedirect}>
@@ -167,8 +171,8 @@ function Work() {
                         </div>
                     </div>
                 </div>
-            </div>
-        </FadeInSection>
+            </FadeInSection>
+        </div>
     );
 }
 export default Work;
