@@ -32,52 +32,50 @@ function About() {
                                     2024. What I'm most passionate about are
                                     cultivating technical solutions to
                                     real-world problems, advocating
-                                    sustainability, and building
-                                    community-driven applications.
+                                    sustainability to support my surrounding
+                                    community.
                                 </div>
                                 <div className="personal-intro">
                                     <span className="growth">🎯 </span>I
                                     appreciate every challenge I came across
                                     that helped cultivate my self-efficacy in
-                                    this risk-taking world. Through internships
-                                    at innovative tech companies, I learned the
-                                    importance of staying open-minded to
+                                    this ever-changing world. Through
+                                    internships at innovative tech companies, I
+                                    learned the importance of embracing new
                                     changes, whether they be adaptations to new
-                                    project alignments, programming languages,
-                                    or attitudes. I feel highly motivated as I
-                                    discover ways to improve flexibility and
-                                    creativity through ongoing discussions with
-                                    others to address a customer’s changing
-                                    needs.
+                                    working paradigm, programming languages, or
+                                    attitudes. I am thrilled when I am given the
+                                    chance to discover ways to improve
+                                    flexibility and creativity through ongoing
+                                    discussions with others to address
+                                    customers' changing needs.
                                 </div>
                                 <div className="personal-intro">
-                                    <span className="free-time">👟 </span>I love
-                                    to organize my room on a regular basis. Such
-                                    habit transfers to my every aspect of life.
-                                    I always try to start the day with a
-                                    goal-oriented mindset and bring my organized
-                                    characteristics to the work I do for maximum
-                                    productivity. Rather than following rigid
-                                    approaches, I prefer to strive to expand my
-                                    comfort zone and adopt unconventional
-                                    methods to build sustainable solutions.
+                                    <span className="free-time">👟 </span>
+                                    Besides work and school, I love running and
+                                    working out. Such habit not only help me
+                                    staying healthy but it also allow me to push
+                                    myself forward everyday which will energized
+                                    me for my day. Also, while doing these
+                                    activity I usually find unconventional
+                                    answers for blockroads that I am facing
+                                    since I can let my mind freely wander
+                                    without distraction.
                                 </div>
                                 <div className="personal-intro">
                                     <span className="community">🙌 </span>
-                                    What compels me to wake up for work and
-                                    become fully charged for the day is knowing
-                                    I have another chance to bring warmth and
-                                    friendship to my community. I thrive in jobs
-                                    that foster diversity and culture, enjoying
-                                    collaborations with people from different
-                                    walks of life for a shared mission. Not only
-                                    do I see it as a chance to accumulate new
-                                    knowledge, but also to deeply connect with
-                                    others through their different views at
-                                    problems. I aim to be a team player, be in
-                                    tune with the emotional needs of those
-                                    around me, and thrive on positive
-                                    reinforcement.
+                                    What inspires me to push myself forward
+                                    everyday is knowing that I have another
+                                    chance to make a difference and better
+                                    people's day through good deeds. I thrive in
+                                    jobs that foster diversity and culture,
+                                    enjoying collaborations with people from
+                                    different backgrounds for a mutual goal. Not
+                                    only do I see it as a chance to gain new
+                                    experience, but also to deeply connect with
+                                    others through their different perspectives.
+                                    I aim to be a team player, be in tune with
+                                    the emotional needs of those around me.
                                 </div>
                                 <div className="personal-intro">
                                     <span className="skill">🔧 </span>
