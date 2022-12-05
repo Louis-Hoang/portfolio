@@ -8,7 +8,7 @@
   https://louis-hoang.github.io/portfolio/
 </h1>
 <p align="center">
-  The first version of <a href="https://louis-hoang.github.io/portfolio/" target="_blank">khe-le.com</a> built with React, Bootstrap and hosted by Github P
+  The first version of my <a href="https://louis-hoang.github.io/portfolio/" target="_blank">portfolio</a> built with React, Bootstrap and hosted by Github Pages
 </p>
 <div align="center">
   <img alt="Website Banner" src="https://drive.google.com/uc?export=view&id=1aVEd0onJAJf0xkW3nYX_tXmrbGGRSv8n" width="1000">
