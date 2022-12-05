@@ -13,7 +13,7 @@ function App() {
             <SocialMedia />
             <About />
             <Work />
-            <hr />
+            {/* <hr /> */}
             <Contact />
         </div>
     );

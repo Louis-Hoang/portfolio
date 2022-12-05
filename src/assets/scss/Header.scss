@@ -19,6 +19,13 @@
             img {
                 width: 110px;
             }
+            .sticky-logo {
+                padding: 0.5rem 0 0;
+                width: 65px;
+                // height: 60px;
+                transition: 0.8s ease-in-out;
+                transform: rotate(1turn);
+            }
         }
         .navbar-buttons {
             display: flex;
@@ -27,7 +34,7 @@
             margin-left: auto;
             align-items: center;
             .navbar-button {
-                font-size: 18px;
+                font-size: 16px;
                 margin-right: 30px;
                 cursor: pointer;
                 transition: 0.3s ease-in-out;
@@ -39,15 +46,27 @@
                 }
             }
             .resume-button {
-                border: 1.5px solid rgba(15, 27, 97, 0.75);
+                border: 1.5px solid #2e5090;
                 border-radius: 5px;
                 padding: 8px 15px;
                 &:hover {
-                    background: rgba(15, 27, 97, 0.9);
+                    background: #2e5090;
                     color: #fff;
                     letter-spacing: 1px;
                 }
             }
         }
+    }
+    .sticky {
+        padding: 0 5%;
+        background: #eae8e1;
+        opacity: 1;
+        box-shadow: 0.2px 0.5px 0.5px #f5fefd;
+        transition: 0.3s ease-in-out;
+    }
+    .hidden {
+        opacity: 0;
+        z-index: -100;
+        transition: 0.3s ease-in-out;
     }
 }

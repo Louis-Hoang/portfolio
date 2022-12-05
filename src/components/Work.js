@@ -30,6 +30,10 @@ function Work() {
     return (
         <div className="work">
             <FadeInSection>
+                <h1 className="work-title">Some Projects I've built</h1>
+                <div className="vertical-line">|</div>
+            </FadeInSection>
+            <FadeInSection>
                 <div className="row">
                     <Carousel>
                         <Carousel.Item interval={5000} onClick={katRedirect}>

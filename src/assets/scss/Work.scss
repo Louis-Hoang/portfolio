@@ -3,9 +3,20 @@
     // background-size: cover;
     // background-position: 50%;
     // box-shadow: inset 0 0 10px #1a2420;
-
-    cursor: default;
-
+    .work-title {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 2rem;
+        color: rgba(15, 27, 97, 0.8);
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .vertical-line {
+        font-size: 2.5rem;
+        margin-bottom: 7%;
+        color: rgba(15, 27, 97, 0.8);
+        text-align: center;
+    }
     .row {
         display: flex;
         flex-direction: row;
@@ -30,7 +41,9 @@
             }
             .carousel-inner {
                 max-width: 550px;
-
+                overflow: hidden;
+                //             border: 0.8rem solid #334740;
+                // box-shadow: 0 0 10px #1a2420;
                 .carousel-item {
                     img {
                         max-width: 830px;
