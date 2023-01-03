@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bf2f5d58.css",
-    "main.js": "/portfolio/static/js/main.c9486fc2.js",
+    "main.css": "/portfolio/static/css/main.5c8091ca.css",
+    "main.js": "/portfolio/static/js/main.bd59665f.js",
     "static/media/DenisonSunset.jpeg": "/portfolio/static/media/DenisonSunset.02543e03888608d4c352.jpeg",
     "static/media/ChicagoTheatre.jpeg": "/portfolio/static/media/ChicagoTheatre.88f5e7fae5fb3b5d5e91.jpeg",
     "static/media/Denison.jpeg": "/portfolio/static/media/Denison.b70e140abb8e66315b1a.jpeg",
@@ -29,11 +29,11 @@
     "static/media/envelope.svg": "/portfolio/static/media/envelope.d2ead7bcca44615138a6fa96f6dc3496.svg",
     "static/media/result.svg": "/portfolio/static/media/result.30515e8d08bc7365a1b43e84052a4ec1.svg",
     "static/media/prev_arror.svg": "/portfolio/static/media/prev_arror.94c4e12dfb2c01919a40.svg",
-    "main.bf2f5d58.css.map": "/portfolio/static/css/main.bf2f5d58.css.map",
-    "main.c9486fc2.js.map": "/portfolio/static/js/main.c9486fc2.js.map"
+    "main.5c8091ca.css.map": "/portfolio/static/css/main.5c8091ca.css.map",
+    "main.bd59665f.js.map": "/portfolio/static/js/main.bd59665f.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf2f5d58.css",
-    "static/js/main.c9486fc2.js"
+    "static/css/main.5c8091ca.css",
+    "static/js/main.bd59665f.js"
   ]
 }
