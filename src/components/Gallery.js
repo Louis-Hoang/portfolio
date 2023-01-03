@@ -1,3 +1,4 @@
+import GalleryItem from "./GalleryItem";
 import "../assets/scss/Gallery.scss";
 import FadeInSection from "./FadeInSection";
 import LittleJapan from "../assets/images/Little_Japan.jpeg";
@@ -8,7 +9,7 @@ import Theatre from "../assets/images/ChicagoTheatre.jpeg";
 import Guggenheim from "../assets/images/Guggenheim.jpeg";
 import Denison from "../assets/images/Denison.jpeg";
 import Airport from "../assets/images/ChangiAirport.jpeg";
-import Sunset from "../assets/images/DenisonSunset.jpeg";
+import Sunrise from "../assets/images/DenisonSunset.jpeg";
 function Gallery() {
     return (
         <div className="gallery">
@@ -25,107 +26,53 @@ function Gallery() {
             <FadeInSection>
                 <div className="photo-grid">
                     <div className="col">
-                        <FadeInSection>
-                            <div className="grid_item photo">
-                                <div className="photo-container">
-                                    <img
-                                        className="photo-item"
-                                        src={LittleJapan}
-                                        alt="Little Japan"
-                                    />
-                                </div>
-                            </div>
-                        </FadeInSection>
-                        <FadeInSection>
-                            <div className="grid_item photo">
-                                <div className="photo-container">
-                                    <img
-                                        className="photo-item"
-                                        src={Pier}
-                                        alt="Navy Pier"
-                                    />
-                                </div>
-                            </div>
-                        </FadeInSection>
-                        <FadeInSection>
-                            <div className="grid_item photo">
-                                <div className="photo-container">
-                                    <img
-                                        className="photo-item"
-                                        src={Theatre}
-                                        alt="Chiago Theatre"
-                                    />
-                                </div>
-                            </div>
-                        </FadeInSection>
-                        <FadeInSection>
-                            <div className="grid_item photo">
-                                <div className="photo-container">
-                                    <img
-                                        className="photo-item"
-                                        src={Guggenheim}
-                                        alt="Chiago Theatre"
-                                    />
-                                </div>
-                            </div>
-                        </FadeInSection>
-                        <FadeInSection>
-                            <div className="grid_item photo">
-                                <div className="photo-container">
-                                    <img
-                                        className="photo-item"
-                                        src={Denison}
-                                        alt="University"
-                                    />
-                                </div>
-                            </div>
-                        </FadeInSection>
-                        <FadeInSection>
-                            <div className="grid_item photo">
-                                <div className="photo-container">
-                                    <img
-                                        className="photo-item"
-                                        src={Sunset}
-                                        alt="University Sunset"
-                                    />
-                                </div>
-                            </div>
-                        </FadeInSection>
+                        <GalleryItem
+                            img={LittleJapan}
+                            alt="Little Japan"
+                            desc="Little Japan - Saigon, VietNam"
+                        />
+                        <GalleryItem
+                            img={Pier}
+                            alt="Navy Pier"
+                            desc="Navy Pier - Chicago, IL"
+                        />
+                        <GalleryItem
+                            img={Theatre}
+                            alt="Chiago Theatre"
+                            desc="The Chicago Theatre - Chicago, IL"
+                        />
+                        <GalleryItem
+                            img={Guggenheim}
+                            alt="Guggenheim Museum"
+                            desc="Guggenheim Museum - Chicago, IL"
+                        />
+                        <GalleryItem
+                            img={Denison}
+                            alt="Denison University"
+                            desc="Landscape - Denison University"
+                        />
+                        <GalleryItem
+                            img={Sunrise}
+                            alt="University Sunrise"
+                            desc="Sunrise - Denison University"
+                        />
                     </div>
                     <div className="col">
-                        <FadeInSection>
-                            <div className="grid_item photo">
-                                <div className="photo-container">
-                                    <img
-                                        className="photo-item"
-                                        src={Street}
-                                        alt="Local Street"
-                                    />
-                                </div>
-                            </div>
-                        </FadeInSection>
-                        <FadeInSection>
-                            <div className="grid_item photo">
-                                <div className="photo-container">
-                                    <img
-                                        className="photo-item"
-                                        src={Moma}
-                                        alt="Moma Chicago"
-                                    />
-                                </div>
-                            </div>
-                        </FadeInSection>
-                        <FadeInSection>
-                            <div className="grid_item photo">
-                                <div className="photo-container">
-                                    <img
-                                        className="photo-item"
-                                        src={Airport}
-                                        alt="Changi Airport"
-                                    />
-                                </div>
-                            </div>
-                        </FadeInSection>
+                        <GalleryItem
+                            img={Street}
+                            alt="Nguyen Hue Street"
+                            desc="Nguyen Hue Street - Saigon, Vietnam"
+                        />
+                        <GalleryItem
+                            img={Moma}
+                            alt="Moma Museum Chicago"
+                            desc="Moma Museum - Chicago, IL"
+                        />
+                        <GalleryItem
+                            img={Airport}
+                            alt="Changi Airport"
+                            desc="Changi Airport - Singapore"
+                        />
                     </div>
                 </div>
             </FadeInSection>
