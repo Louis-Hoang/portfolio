@@ -6,6 +6,9 @@ import Pier from "../assets/images/NavyPier.jpeg";
 import Moma from "../assets/images/Moma.jpeg";
 import Theatre from "../assets/images/ChicagoTheatre.jpeg";
 import Guggenheim from "../assets/images/Guggenheim.jpeg";
+import Denison from "../assets/images/Denison.jpeg";
+import Airport from "../assets/images/ChangiAirport.jpeg";
+import Sunset from "../assets/images/DenisonSunset.jpeg";
 function Gallery() {
     return (
         <div className="gallery">
@@ -66,6 +69,28 @@ function Gallery() {
                                 </div>
                             </div>
                         </FadeInSection>
+                        <FadeInSection>
+                            <div className="grid_item photo">
+                                <div className="photo-container">
+                                    <img
+                                        className="photo-item"
+                                        src={Denison}
+                                        alt="University"
+                                    />
+                                </div>
+                            </div>
+                        </FadeInSection>
+                        <FadeInSection>
+                            <div className="grid_item photo">
+                                <div className="photo-container">
+                                    <img
+                                        className="photo-item"
+                                        src={Sunset}
+                                        alt="University Sunset"
+                                    />
+                                </div>
+                            </div>
+                        </FadeInSection>
                     </div>
                     <div className="col">
                         <FadeInSection>
@@ -85,7 +110,18 @@ function Gallery() {
                                     <img
                                         className="photo-item"
                                         src={Moma}
-                                        alt="Moma"
+                                        alt="Moma Chicago"
+                                    />
+                                </div>
+                            </div>
+                        </FadeInSection>
+                        <FadeInSection>
+                            <div className="grid_item photo">
+                                <div className="photo-container">
+                                    <img
+                                        className="photo-item"
+                                        src={Airport}
+                                        alt="Changi Airport"
                                     />
                                 </div>
                             </div>
