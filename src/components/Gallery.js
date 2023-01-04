@@ -17,9 +17,9 @@ function Gallery() {
                 <div className="intro">
                     <h2 className="title">Gallery</h2>
                     <div className="gallery-text">
-                        Outside of my work I like to spend as much time as I can
-                        going around finding inspiration, travelling with
-                        friend, family or just myself.
+                        Outside of school and work I like to spend as much time
+                        as I can going around finding inspiration, travelling
+                        with friends, family or just myself.
                     </div>
                 </div>
             </FadeInSection>

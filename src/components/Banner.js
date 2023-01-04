@@ -1,5 +1,6 @@
 import "../assets/scss/Banner.scss";
 import avatar from "../assets/images/avatar.svg";
+import personal from "../assets/images/portrait_pic.png";
 import ScrollIntoView from "react-scroll-into-view";
 function Banner(props) {
     return (
@@ -18,8 +19,14 @@ function Banner(props) {
                     </button>
                 </div> */}
             </div>
-            <div className="avatar">
-                <img src={avatar} alt="avatar" />
+
+            <div className="flip-card">
+                <div className="card-front">
+                    <img src={avatar} alt="avatar" />
+                </div>
+                <div className="card-back">
+                    <img className="back-img" src={personal} alt="Avatar Pic" />
+                </div>
             </div>
             <div className="cta">Scroll</div>
             <ScrollIntoView selector=".about">

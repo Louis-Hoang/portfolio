@@ -1,6 +1,7 @@
 import "../assets/scss/About.scss";
 import FadeInSection from "./FadeInSection";
 import portrait from "../assets/images/portrait.jpg";
+
 // import ReactReadMoreReadLess from "react-read-more-read-less";
 import ReadMore from "./ReadMore";
 function About() {

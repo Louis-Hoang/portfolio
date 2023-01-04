@@ -15,7 +15,7 @@ function Contact() {
                 <h2 className="title">Get In Touch</h2>
                 <div className="contact-text">
                     Feel free to connnect with me. I am always more than happy
-                    to discussing novel projects, ideas, as well as job
+                    to having insightful conversation, ideas, as well as job
                     opportunities.
                 </div>
                 <div className="container-button" onClick={email}>
