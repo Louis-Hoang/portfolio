@@ -26,20 +26,20 @@ function About() {
                             <ReadMore>
                                 <div className="personal-intro">
                                     <span className="wave">👋 </span>
-                                    Hi, I'm Tung, but also go by Louis. I'm a
-                                    junior at Denion University I'm pursuing a
+                                    Hi, I'm Tung, but you can call me Louis. I'm
+                                    a junior at Denion University I'm pursuing a
                                     BS degree in computer science and
                                     mathematics with an expected graduation in
                                     2024. What I'm most passionate about are
                                     cultivating technical solutions to
                                     real-world problems, advocating
                                     sustainability to support my surrounding
-                                    community.
+                                    communities.
                                 </div>
                                 <div className="personal-intro">
                                     <span className="growth">🎯 </span>I
                                     appreciate every challenge I came across
-                                    that helped cultivate my self-efficacy in
+                                    that helped building my self-efficacy in
                                     this ever-changing world. Through
                                     internships at innovative tech companies, I
                                     learned the importance of embracing new
@@ -75,8 +75,8 @@ function About() {
                                     only do I see it as a chance to gain new
                                     experience, but also to deeply connect with
                                     others through their different perspectives.
-                                    I aim to be a team player, be in tune with
-                                    the emotional needs of those around me.
+                                    I strive to be a team player, be in tune
+                                    with the emotional needs of those around me.
                                 </div>
                                 <div className="personal-intro">
                                     <span className="skill">🔧 </span>

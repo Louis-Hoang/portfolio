@@ -1,3 +1,13 @@
+@keyframes fade-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(-15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 .header {
     transition: opacity 2.5s ease-in-out;
     transition-duration: 0.2s;
@@ -15,6 +25,8 @@
         flex-direction: row;
         align-items: center;
         .logo-container {
+            opacity: 0;
+            animation: fade-in-right ease-in-out 0.6s forwards;
             cursor: pointer;
             img {
                 width: 110px;
@@ -28,6 +40,9 @@
             }
         }
         .navbar-buttons {
+            opacity: 0;
+            animation: fade-in-right ease-in-out 0.6s forwards;
+            animation-delay: 0.8s;
             display: flex;
             flex-direction: row;
             color: black;

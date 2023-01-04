@@ -2,22 +2,16 @@ import "../assets/scss/Banner.scss";
 import avatar from "../assets/images/avatar.svg";
 import personal from "../assets/images/portrait_pic.png";
 import ScrollIntoView from "react-scroll-into-view";
+
 function Banner(props) {
     return (
         <div className="banner">
             <div className="inner">
                 <h1 className="greeting">Hi, I'm Tung Hoang</h1>
-                {/* <h1 className="">Tung Hoang</h1> */}
                 <div className="intro">
                     Welcome to my website, where I share both of my professional
                     journey <br /> and my personal interests.
                 </div>
-                {/* <div className="button-container">
-                    <button className="banner-button" type="button">
-                        <div className="button-text">Discover</div>
-                        <span className="arrow-icon"></span>
-                    </button>
-                </div> */}
             </div>
 
             <div className="flip-card">
