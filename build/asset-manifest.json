@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.24033334.css",
-    "main.js": "/portfolio/static/js/main.14885515.js",
+    "main.css": "/portfolio/static/css/main.c7e155ff.css",
+    "main.js": "/portfolio/static/js/main.d62fba0e.js",
     "static/media/DenisonSunset.jpeg": "/portfolio/static/media/DenisonSunset.02543e03888608d4c352.jpeg",
     "static/media/ChicagoTheatre.jpeg": "/portfolio/static/media/ChicagoTheatre.88f5e7fae5fb3b5d5e91.jpeg",
     "static/media/Denison.jpeg": "/portfolio/static/media/Denison.b70e140abb8e66315b1a.jpeg",
     "static/media/NavyPier.jpeg": "/portfolio/static/media/NavyPier.61909acb2d66b755d212.jpeg",
+    "static/media/portrait_round.png": "/portfolio/static/media/portrait_round.888d892c64128fd20da6.png",
     "static/media/Guggenheim.jpeg": "/portfolio/static/media/Guggenheim.279811fa42772806b61f.jpeg",
     "static/media/ChangiAirport.jpeg": "/portfolio/static/media/ChangiAirport.a77cb5c3c2863e8c4c02.jpeg",
     "static/media/NguyenHue_Street.jpeg": "/portfolio/static/media/NguyenHue_Street.39e51d23cf37ad750b97.jpeg",
@@ -30,11 +31,11 @@
     "static/media/envelope.svg": "/portfolio/static/media/envelope.d2ead7bcca44615138a6fa96f6dc3496.svg",
     "static/media/result.svg": "/portfolio/static/media/result.30515e8d08bc7365a1b43e84052a4ec1.svg",
     "static/media/prev_arror.svg": "/portfolio/static/media/prev_arror.94c4e12dfb2c01919a40.svg",
-    "main.24033334.css.map": "/portfolio/static/css/main.24033334.css.map",
-    "main.14885515.js.map": "/portfolio/static/js/main.14885515.js.map"
+    "main.c7e155ff.css.map": "/portfolio/static/css/main.c7e155ff.css.map",
+    "main.d62fba0e.js.map": "/portfolio/static/js/main.d62fba0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.24033334.css",
-    "static/js/main.14885515.js"
+    "static/css/main.c7e155ff.css",
+    "static/js/main.d62fba0e.js"
   ]
 }
