@@ -289,3 +289,33 @@
         }
     }
 }
+
+@media (max-width: 1000px) {
+    .banner {
+        padding: 15%;
+        padding-top: 25%;
+        .inner {
+            .greeting {
+                font-size: 2rem;
+            }
+            .intro {
+                font-size: 0.8rem;
+            }
+        }
+        .flip-card {
+            height: 200px;
+            width: 200px;
+            margin-bottom: 8%;
+            .card-back {
+                img {
+                    max-width: 100%;
+                }
+            }
+            .card-front {
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

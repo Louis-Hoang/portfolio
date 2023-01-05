@@ -11,7 +11,7 @@ function SocialMedia() {
                 <div className="socialmedia">
                     <a
                         className="icon"
-                        href="https://drive.google.com/file/d/152k0ymtBVSRZNueR8OeBihlTfXe2qWNO/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1UKp9TtZ7PNwYijgxU_9N6QUmkz_IYRml/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                     >

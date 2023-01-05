@@ -37,7 +37,7 @@ function PreLoader() {
     }, []);
     return (
         <>
-            {!completed ? (
+            {!completed & (window.innerWidth > 1000) ? (
                 <Lottie options={defaultOptions} height={300} width={300} />
             ) : (
                 <div className="content">

@@ -85,3 +85,21 @@
         transition: 0.3s ease-in-out;
     }
 }
+@media (max-width: 1000px) {
+    .header {
+        .navbar {
+            .navbar-button {
+                display: none;
+            }
+            .logo-container {
+                width: 23%;
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+        .sticky {
+            display: none;
+        }
+    }
+}

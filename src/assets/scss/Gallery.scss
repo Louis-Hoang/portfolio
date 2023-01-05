@@ -36,7 +36,26 @@
         max-width: 1200px;
         .col {
             width: 50%;
-            padding: 0 25px;
+            padding: 0 2%;
+        }
+    }
+}
+@media (max-width: 800px) {
+    .gallery {
+        .intro {
+            .title {
+                font-size: 1.3rem;
+            }
+            .gallery-text {
+                font-size: 0.8rem;
+                max-width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        .photo-grid {
+            .col {
+            }
         }
     }
 }

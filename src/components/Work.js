@@ -78,7 +78,7 @@ function Work() {
                 </div>
             </FadeInSection>
             <FadeInSection>
-                <div className="row">
+                <div className="row center-row">
                     <div className="proj-description left">
                         <h2 className="category left">Web Design Project</h2>
                         <h2 className="name right">Expense Tracker</h2>
@@ -159,7 +159,7 @@ function Work() {
                     </Carousel>
                     <div className="proj-description right">
                         <h2 className="category right">Personal Project</h2>
-                        <h2 className="name right">Expense Tracker</h2>
+                        <h2 className="name right">Sudoku</h2>
                         <div className="details right">
                             Utilizing Python and Pygame module to build a
                             structured GUI for a classic sudoku with an

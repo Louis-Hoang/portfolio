@@ -1,7 +1,6 @@
 .about {
     background-color: #fafafa;
     font-family: "Bitter", serif;
-    // margin-bottom: 300px;
     padding: 10% 15%;
     .container-info {
         .profile-container {
@@ -39,6 +38,13 @@
                     margin-top: 0px;
                     margin-bottom: 10px;
                 }
+                .person-pic-phone {
+                    display: none;
+                    max-width: 50%;
+                    img {
+                        width: 100%;
+                    }
+                }
                 .personal-intro {
                     font-family: "Bitter", serif;
                     font-size: 0.85rem;
@@ -73,56 +79,159 @@
                             font-size: 0.9rem;
                         }
                     }
-                    // .col-mobi {
-                    // }
                 }
-                .button-container {
-                    .banner-button {
-                        padding: 12px 18px;
-                        align-items: center;
-                        // font-size: 1rem;
-                        // font-weight: 900;
-                        border: 2px solid rgba(15, 27, 97, 0.75);
-                        border-radius: 5px;
-                        color: black;
-                        font-size: 0.9rem;
-                        letter-spacing: 3px;
-                        font-family: "Bitter", serif;
-                        font-weight: 200;
-                        letter-spacing: 2px;
-                        text-transform: uppercase;
-                        cursor: pointer;
-                        background-color: transparent;
-                        transition: color 0.15s ease-in-out,
-                            background-color 0.15s ease-in-out,
-                            border-color 0.15s ease-in-out,
-                            box-shadow 0.15s ease-in-out;
-                        display: flex;
-                        flex-direction: row;
+
+                .banner-button {
+                    max-width: 35%;
+                    padding: 2% 3%;
+                    align-items: center;
+                    border: 0px solid rgba(15, 27, 97, 0.75);
+                    border-radius: 5px;
+                    color: white;
+                    font-size: 0.9rem;
+                    letter-spacing: 3px;
+                    font-family: "Bitter", serif;
+                    font-weight: 200;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    background-color: rgba(15, 27, 97, 0.65);
+                    transition: color 0.15s ease-in-out,
+                        background-color 0.15s ease-in-out,
+                        border-color 0.15s ease-in-out,
+                        box-shadow 0.15s ease-in-out;
+                    display: flex;
+                    flex-direction: row;
+                    .arrow-icon {
+                        margin-left: 10px;
+                        font-size: 1.5rem;
+                        color: white;
+                        font-weight: 900;
+                        transition: all 0.5s ease;
+                        // transform: translateY(-2px);
+                        &:before {
+                            -webkit-font-smoothing: antialiased;
+                            font-style: normal;
+                            font-weight: 400;
+                            text-transform: none !important;
+                            content: "\2192";
+                        }
+                    }
+                    &:hover {
+                        box-shadow: 5px 5px gray;
                         .arrow-icon {
-                            margin-left: 10px;
-                            font-size: 1.5rem;
-                            color: rgba(15, 27, 97, 0.75);
-                            font-weight: 900;
-                            transition: all 0.5s ease;
-                            // transform: translateY(-2px);
-                            &:before {
-                                -webkit-font-smoothing: antialiased;
-                                font-style: normal;
-                                font-weight: 400;
-                                text-transform: none !important;
-                                content: "\2192";
+                            transform: translateX(4px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .about {
+        .container-info {
+            .profile-container {
+                .left-content {
+                    display: none;
+                }
+                .right-content {
+                    .person-pic-phone {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .about {
+        padding: 10%;
+        .container-info {
+            .profile-container {
+                .left-content {
+                    display: none;
+                }
+                .right-content {
+                    align-items: center;
+                    .person-pic-phone {
+                        display: block;
+                        margin: 5% auto;
+                    }
+                    .text {
+                        text-align: center;
+                    }
+                    hr {
+                        width: 20%;
+                    }
+                    .personal-intro {
+                        text-align: center;
+                        font-size: 0.8rem;
+                    }
+                    .read-or-hide {
+                        text-align: center;
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .about {
+        padding: 10%;
+        .container-info {
+            .profile-container {
+                .left-content {
+                    display: none;
+                }
+                .right-content {
+                    align-items: center;
+                    .person-pic-phone {
+                        display: block;
+                        margin: 5% auto;
+                    }
+                    .text {
+                        text-align: center;
+                    }
+                    hr {
+                        width: 20%;
+                    }
+                    .personal-intro {
+                        text-align: center;
+                        font-size: 0.8rem;
+                    }
+                    .read-or-hide {
+                        text-align: center;
+                        font-size: 0.8rem;
+                    }
+                    .profile-box {
+                        flex-direction: column;
+                        align-items: flex-start;
+                        margin: 0.1% 0 5%;
+                        padding: 5% 10% 4% 5%;
+                        .profile-column {
+                            max-width: none;
+                            margin-right: 0;
+                            h3 {
+                                font-size: 0.85rem;
+                                margin-bottom: 0.8rem;
                             }
                         }
-                        &:hover {
-                            box-shadow: 5px 5px gray;
-                            // background: #978273;
-                            // background: rgba(29, 47, 146, 0.25);
-                            // color: #fff !important;
-                            // border-color: #978273 !important;
-                            .arrow-icon {
-                                transform: translateX(4px);
-                            }
+                    }
+
+                    .banner-button {
+                        font-size: 0.75rem;
+                        letter-spacing: 1px;
+                        padding: 4% 5%;
+                        max-width: 100%;
+                        .arrow-icon {
+                            display: none;
+                        }
+                        .button-text {
                         }
                     }
                 }

@@ -1,13 +1,13 @@
 import "../assets/scss/About.scss";
 import FadeInSection from "./FadeInSection";
 import portrait from "../assets/images/portrait.jpg";
-
+import portrait_round from "../assets/images/portrait_round.png";
 // import ReactReadMoreReadLess from "react-read-more-read-less";
 import ReadMore from "./ReadMore";
 function About() {
     const resumeRedirect = () => {
         window.open(
-            "https://drive.google.com/file/d/152k0ymtBVSRZNueR8OeBihlTfXe2qWNO/view?usp=sharing",
+            "https://drive.google.com/file/d/1UKp9TtZ7PNwYijgxU_9N6QUmkz_IYRml/view?usp=sharing",
             "_blank"
         );
     };
@@ -23,6 +23,9 @@ function About() {
                             <h2 className="subtitle">My intro</h2>
                             <h1 className="aboutMe">About me</h1>
                             <hr />
+                            <div className="person-pic-phone">
+                                <img src={portrait_round} alt="avatar" />
+                            </div>
                             <ReadMore>
                                 <div className="personal-intro">
                                     <span className="wave">👋 </span>
@@ -115,17 +118,14 @@ function About() {
                                     </h3>
                                 </div>
                             </div>
-                            <div className="button-container">
-                                <button className="banner-button" type="button">
-                                    <div
-                                        className="button-text"
-                                        onClick={resumeRedirect}
-                                    >
-                                        Download CV
-                                    </div>
-                                    <span className="arrow-icon"></span>
-                                </button>
-                            </div>
+                            <button
+                                className="banner-button"
+                                type="button"
+                                onClick={resumeRedirect}
+                            >
+                                Download CV
+                                <span className="arrow-icon"></span>
+                            </button>
                         </div>
                     </div>
                 </FadeInSection>

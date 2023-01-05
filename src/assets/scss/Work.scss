@@ -26,9 +26,8 @@
         --bs-gutter-x: 0;
         --bs-gutter-y: 0;
         .carousel {
-            max-width: 100%;
             width: auto;
-            max-width: 520px;
+            max-width: 58%;
             cursor: pointer;
             .carousel-indicators {
                 top: 105%;
@@ -136,6 +135,61 @@
             z-index: 2;
             left: 2%;
             text-align: left;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .work {
+        padding: 8% 12% 2%;
+        .vertical-line {
+            margin-bottom: 4%;
+        }
+        .work-title {
+            font-size: 1.3rem;
+            letter-spacing: 1px;
+        }
+        .row {
+            flex-direction: column-reverse;
+            align-items: center;
+            .proj-description {
+                position: relative;
+                width: 90%;
+                right: 0%;
+                left: 0%;
+                text-align: center;
+                align-items: center;
+                .name {
+                    font-size: 1.6rem;
+                    letter-spacing: 1px;
+                }
+                .details {
+                    padding: 3%;
+                    text-align: center;
+                    font-size: 0.7rem;
+                }
+                .tech {
+                    margin-bottom: 15px;
+                }
+            }
+            .right {
+                align-items: center;
+            }
+            .right-carousel {
+                margin-left: 0;
+            }
+            .carousel {
+                max-width: 100%;
+                .carousel-control-next {
+                    right: 18%;
+                }
+                .carousel-control-prev {
+                    left: 18%;
+                }
+            }
+        }
+        .center-row {
+            flex-direction: column;
         }
     }
 }
