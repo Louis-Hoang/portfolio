@@ -1,5 +1,9 @@
 import "../assets/scss/Contact.scss";
 import FadeInSection from "./FadeInSection";
+import resume from "../assets/images/result.svg";
+import githubWeb from "../assets/images/github.svg";
+import linkedin from "../assets/images/linkedin.svg";
+import envelope from "../assets/images/envelope.svg";
 
 function Contact() {
     const email = () => {
@@ -20,6 +24,50 @@ function Contact() {
                 </div>
                 <div className="container-button" onClick={email}>
                     Say Hello
+                </div>
+                <div className="sidebar-mobi">
+                    <div className="social-medias">
+                        <div className="socialmedia">
+                            <a
+                                className="icon"
+                                href="https://drive.google.com/file/d/1UKp9TtZ7PNwYijgxU_9N6QUmkz_IYRml/view?usp=sharing"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <img src={resume} alt="resume" />
+                            </a>
+                        </div>
+                        <div className="socialmedia">
+                            <a
+                                className="icon"
+                                href="https://github.com/Louis-Hoang"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <img src={githubWeb} alt="github" />
+                            </a>
+                        </div>
+                        <div className="socialmedia">
+                            <a
+                                className="icon"
+                                href="https://www.linkedin.com/in/hoang-xtung/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <img src={linkedin} alt="linkedin" />
+                            </a>
+                        </div>
+                        <div className="socialmedia">
+                            <a
+                                className="icon"
+                                href="mailto:tung.xuan.h@gmail.com"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <img src={envelope} alt="email" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div className="claim" onClick={github}>
                     Designed & Built by Tung Hoang

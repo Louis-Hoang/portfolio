@@ -131,14 +131,32 @@
 
 @media (max-width: 1000px) {
     .about {
+        padding: 10%;
         .container-info {
             .profile-container {
                 .left-content {
                     display: none;
                 }
                 .right-content {
+                    align-items: center;
                     .person-pic-phone {
                         display: block;
+                        margin: 5% auto;
+                        max-width: 35%;
+                    }
+                    .text {
+                        text-align: center;
+                    }
+                    hr {
+                        width: 20%;
+                    }
+                    .personal-intro {
+                        text-align: center;
+                        font-size: 0.8rem;
+                    }
+                    .read-or-hide {
+                        text-align: center;
+                        font-size: 0.8rem;
                     }
                 }
             }

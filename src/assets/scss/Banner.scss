@@ -293,7 +293,43 @@
 @media (max-width: 1000px) {
     .banner {
         padding: 15%;
+        padding-top: 20%;
+        .cta {
+            font-size: 0.8rem;
+        }
+        .inner {
+            .greeting {
+                font-size: 2.5rem;
+            }
+            .intro {
+                font-size: 1rem;
+            }
+        }
+        .flip-card {
+            height: 220px;
+            width: 220px;
+            margin-bottom: 7%;
+            .card-back {
+                img {
+                    max-width: 100%;
+                }
+            }
+            .card-front {
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .banner {
+        padding: 15%;
         padding-top: 25%;
+        .cta {
+            font-size: 0.75rem;
+        }
         .inner {
             .greeting {
                 font-size: 2rem;
