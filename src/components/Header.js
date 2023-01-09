@@ -39,7 +39,7 @@ function Header() {
     }, []);
     const resumeRedirect = () => {
         window.open(
-            "https://drive.google.com/file/d/152k0ymtBVSRZNueR8OeBihlTfXe2qWNO/view?usp=sharing",
+            "https://drive.google.com/file/d/1ts_HRYOfPs0hPWFPGcgQI_Fu83DmFRaq/view?usp=sharing",
             "_blank"
         );
     };

@@ -7,7 +7,7 @@ import ReadMore from "./ReadMore";
 function About() {
     const resumeRedirect = () => {
         window.open(
-            "https://drive.google.com/file/d/1UKp9TtZ7PNwYijgxU_9N6QUmkz_IYRml/view?usp=sharing",
+            "https://drive.google.com/file/d/1ts_HRYOfPs0hPWFPGcgQI_Fu83DmFRaq/view?usp=sharing",
             "_blank"
         );
     };
