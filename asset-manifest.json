@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.850d920c.css",
-    "main.js": "/portfolio/static/js/main.45a131a0.js",
+    "main.js": "/portfolio/static/js/main.d3df4ad8.js",
     "static/media/DenisonSunset.jpeg": "/portfolio/static/media/DenisonSunset.02543e03888608d4c352.jpeg",
     "static/media/ChicagoTheatre.jpeg": "/portfolio/static/media/ChicagoTheatre.88f5e7fae5fb3b5d5e91.jpeg",
     "static/media/Denison.jpeg": "/portfolio/static/media/Denison.b70e140abb8e66315b1a.jpeg",
@@ -20,12 +20,12 @@
     "static/media/sudoku_3.png": "/portfolio/static/media/sudoku_3.43d7310c7e89131fc46e.png",
     "static/media/sudoku_2.png": "/portfolio/static/media/sudoku_2.902aaf994802b35cbc45.png",
     "static/media/kat_2.png": "/portfolio/static/media/kat_2.2d0b041c4bd3a09fac0d.png",
+    "static/media/chatApp_2.png": "/portfolio/static/media/chatApp_2.9d3d097cc476b72fb99e.png",
     "static/media/expenses_2_resize.png": "/portfolio/static/media/expenses_2_resize.d9c3904e6c9d9c4a0ff6.png",
     "static/media/sudoku_1.png": "/portfolio/static/media/sudoku_1.d2f6af98d492cade5794.png",
-    "static/media/chatApp_2.png": "/portfolio/static/media/chatApp_2.9846952cee7159d769f0.png",
     "static/media/expenses_3_resize.png": "/portfolio/static/media/expenses_3_resize.ff52d6d18fcc03932912.png",
     "static/media/expenses_1_resize.png": "/portfolio/static/media/expenses_1_resize.b9890fdd52e12f4ccc72.png",
-    "static/media/chatApp_1.png": "/portfolio/static/media/chatApp_1.d26e79b010a44da90121.png",
+    "static/media/chatApp_1.png": "/portfolio/static/media/chatApp_1.f1c8451384b9ae20737f.png",
     "static/media/personal-logo.svg": "/portfolio/static/media/personal-logo.af3a70f68f9663b0009864747b5220e5.svg",
     "static/media/avatar.svg": "/portfolio/static/media/avatar.1665ff01996de272152951e7d8c51520.svg",
     "static/media/github.svg": "/portfolio/static/media/github.5142f34f6b7bd96831cd594276b64ba2.svg",
@@ -35,10 +35,10 @@
     "static/media/result.svg": "/portfolio/static/media/result.30515e8d08bc7365a1b43e84052a4ec1.svg",
     "static/media/prev_arror.svg": "/portfolio/static/media/prev_arror.94c4e12dfb2c01919a40.svg",
     "main.850d920c.css.map": "/portfolio/static/css/main.850d920c.css.map",
-    "main.45a131a0.js.map": "/portfolio/static/js/main.45a131a0.js.map"
+    "main.d3df4ad8.js.map": "/portfolio/static/js/main.d3df4ad8.js.map"
   },
   "entrypoints": [
     "static/css/main.850d920c.css",
-    "static/js/main.45a131a0.js"
+    "static/js/main.d3df4ad8.js"
   ]
 }
