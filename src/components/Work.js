@@ -9,11 +9,14 @@ import sudoku3 from "../assets/images/sudoku_3.png";
 import kat1 from "../assets/images/kat_1.png";
 import kat2 from "../assets/images/kat_2.png";
 import kat3 from "../assets/images/kat_3.png";
+import chat1 from "../assets/images/chatApp_1.png";
+import chat2 from "../assets/images/chatApp_2.png";
+import chat3 from "../assets/images/chatApp_3.png";
 import FadeInSection from "./FadeInSection";
 
 function Work() {
-    const katRedirect = () => {
-        window.open("https://katalon.com/tester-personality/", "_blank");
+    const chatRedirect = () => {
+        window.open("https://github.com/Louis-Hoang/chat-app", "_blank");
     };
     const sudokuRedirect = () => {
         window.open(
@@ -36,43 +39,43 @@ function Work() {
             <FadeInSection>
                 <div className="row">
                     <Carousel>
-                        <Carousel.Item interval={5000} onClick={katRedirect}>
+                        <Carousel.Item interval={5000} onClick={chatRedirect}>
                             <img
                                 className="d-block w-100"
-                                src={kat1}
+                                src={chat1}
                                 alt="First slide"
                             />
                         </Carousel.Item>
-                        <Carousel.Item interval={5000} onClick={katRedirect}>
+                        <Carousel.Item interval={5000} onClick={chatRedirect}>
                             <img
                                 className="d-block w-100"
-                                src={kat2}
+                                src={chat2}
                                 alt="Second slide"
                             />
                         </Carousel.Item>
-                        <Carousel.Item interval={5000} onClick={katRedirect}>
+                        <Carousel.Item interval={5000} onClick={chatRedirect}>
                             <img
                                 className="d-block w-100"
-                                src={kat3}
+                                src={chat3}
                                 alt="Third slide"
                             />
                         </Carousel.Item>
                     </Carousel>
                     <div className="proj-description right">
-                        <h2 className="category right">UI Design Project</h2>
-                        <h2 className="name right">Tester Personality</h2>
+                        <h2 className="category right">Web App Project</h2>
+                        <h2 className="name right">Chat Application</h2>
                         <div className="details right">
-                            A friendly, welcoming look for the Community forum
-                            engagement campaign at Katalon, Vietnam. Cookies and
-                            sign-up/log-in features are also integrated to
-                            enhance users' overall experience.
+                            Chat app application made by Python framework, Flask
+                            and JavaScript with SocketIO and PostgreSQL database
+                            to store users' registration information that are
+                            styled with HTML/SASS and hosted by Heroku.
                         </div>
                         <div className="tech right">
-                            <div className="tech-individual one">React</div>
-                            <div className="tech-individual two">
-                                Javascript
+                            <div className="tech-individual one">Flask</div>
+                            <div className="tech-individual two">SocketIO</div>
+                            <div className="tech-individual three">
+                                PostgreSQL
                             </div>
-                            <div className="tech-individual three">Figma</div>
                         </div>
                     </div>
                 </div>
