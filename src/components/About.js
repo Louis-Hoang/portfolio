@@ -30,7 +30,7 @@ function About() {
                                 <div className="personal-intro">
                                     <span className="wave">👋 </span>
                                     Hi, I'm Tung, but you can call me Louis. I'm
-                                    a junior at Denion University I'm pursuing a
+                                    a senior at Denion University I'm pursuing a
                                     BS degree in computer science and
                                     mathematics with an expected graduation in
                                     2024. What I'm most passionate about are
