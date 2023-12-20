@@ -7,7 +7,7 @@ import ReadMore from "./ReadMore";
 function About() {
     const resumeRedirect = () => {
         window.open(
-            "https://drive.google.com/file/d/1ts_HRYOfPs0hPWFPGcgQI_Fu83DmFRaq/view?usp=sharing",
+            "https://docs.google.com/document/d/1Jj_I-0gPqMc68XMEm69e7VLwAasqO2s8WG1Af4ED9jo/edit",
             "_blank"
         );
     };
@@ -53,18 +53,6 @@ function About() {
                                     flexibility and creativity through ongoing
                                     discussions with others to address
                                     customers' changing needs.
-                                </div>
-                                <div className="personal-intro">
-                                    <span className="free-time">👟 </span>
-                                    Besides work and school, I love running and
-                                    working out. Such habit not only help me
-                                    staying healthy but it also allow me to push
-                                    myself forward everyday which will energized
-                                    me for my day. Also, while doing these
-                                    activity I usually find unconventional
-                                    answers for blockroads that I am facing
-                                    since I can let my mind freely wander
-                                    without distraction.
                                 </div>
                                 <div className="personal-intro">
                                     <span className="community">🙌 </span>
