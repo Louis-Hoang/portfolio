@@ -7,7 +7,7 @@ import ReadMore from "./ReadMore";
 function About() {
     const resumeRedirect = () => {
         window.open(
-            "https://docs.google.com/document/d/1Jj_I-0gPqMc68XMEm69e7VLwAasqO2s8WG1Af4ED9jo/edit",
+            "https://docs.google.com/document/d/1Jj_I-0gPqMc68XMEm69e7VLwAasqO2s8WG1Af4ED9jo/edit?usp=sharing",
             "_blank"
         );
     };
@@ -43,7 +43,7 @@ function About() {
                                     <span className="growth">🎯 </span>I
                                     appreciate every challenge I came across
                                     that helped building my self-efficacy in
-                                    this ever-changing world. Through
+                                    this ever-changing world. Through previous
                                     internships at innovative tech companies, I
                                     learned the importance of embracing new
                                     changes, whether they be adaptations to new
