@@ -83,9 +83,8 @@ function About() {
                                 </div>
                                 <div className="personal-intro">
                                     <span className="skill">🔧 </span>
-                                    Competencies: Python/C++, full-stack web
-                                    development, MERN stack, UI/UX designs.
-                                    &nbsp;
+                                    Competencies: JavaScript/Typescript (React),
+                                    Go, Python, C++, MongoDB, AWS, Docker &nbsp;
                                 </div>
                             </ReadMore>
                             <div className="profile-box">
