@@ -110,7 +110,7 @@ function About() {
                                 type="button"
                                 onClick={resumeRedirect}
                             >
-                                Download CV
+                                My Resume
                                 <span className="arrow-icon"></span>
                             </button>
                         </div>
