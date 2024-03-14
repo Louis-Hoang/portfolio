@@ -18,8 +18,8 @@ function Contact() {
         <h2 className="next-step">What's Next?</h2>
         <h2 className="title">Get In Touch</h2>
         <div className="contact-text">
-          with me. I am always more than happy to having insightful
-          conversation, ideas, as well as job opportunities.
+          Feel free to connect with me. I am always more than happy to having
+          insightful conversation, ideas, as well as job opportunities.
         </div>
         <div className="container-button" onClick={email}>
           Say Hello
