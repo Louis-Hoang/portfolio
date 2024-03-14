@@ -10,7 +10,7 @@ function Contact() {
     window.open("mailto:tung.xuan.h@gmail.com", "_blank");
   };
   const github = () => {
-    window.open("https://github.com/Louis-Hoang/portfolio", "_blank");
+    window.open("https://github.com/TungXHoang/portfolio", "_blank");
   };
   return (
     <div className="contact">
@@ -39,7 +39,7 @@ function Contact() {
             <div className="socialmedia">
               <a
                 className="icon"
-                href="https://github.com/Louis-Hoang"
+                href="https://github.com/TungXHoang"
                 target="_blank"
                 rel="noreferrer"
               >
